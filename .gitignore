@@ -1,2 +1,4 @@
 /public/uploads/*
 /vendor/
+.DS_Store
+
