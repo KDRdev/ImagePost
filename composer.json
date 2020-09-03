@@ -1,0 +1,14 @@
+{
+    "name": "dkdev/image-post",
+    "description": "A simple PHP framework for uploading images",
+    "type": "project",
+    "require": {
+        "php": "^7.3"
+    },
+    "authors": [
+        {
+            "name": "dkdev",
+            "email": "dmitry.kashuba.cv@gmail.com"
+        }
+    ]
+}
