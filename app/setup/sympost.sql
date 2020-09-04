@@ -30,7 +30,6 @@ CREATE TABLE `posts` (
   `firstname` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
   `lastname` varchar(100) COLLATE utf8mb4_unicode_ci,
   `filename` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT '',
-  `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -46,7 +45,6 @@ CREATE TABLE `users` (
   `name` varchar(100) NOT NULL DEFAULT '',
   `email` varchar(100) NOT NULL DEFAULT '',
   `password` varchar(100) NOT NULL DEFAULT '',
-  `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
