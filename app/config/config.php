@@ -2,10 +2,13 @@
 
     // Database params
 
-    define('DB_HOST', 'DB_HOST');
-    define('DB_USER', 'DB_USER');
-    define('DB_PASS', 'DB_PASS');
-    define('DB_NAME', 'DB_NAME');
+    define('DB_HOST', 'hostname');
+    define('DB_USER', 'user');
+    define('DB_PASS', 'password');
+    define('DB_NAME', 'db');
+
+    // Root
+    define('ROOT', dirname(dirname(dirname(__FILE__))));
 
     // App Root
     define('APPROOT', dirname(dirname(__FILE__)));

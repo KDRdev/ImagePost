@@ -47,7 +47,7 @@ class Posts extends Controller{
                     } else {
                         $filename = round(microtime(true)).mt_rand() . '.' . $file_ext;
                         $source = $_FILES['filename']['tmp_name'][0];
-                        $destination = "uploads/".$filename;
+                        $destination = ROOT . '/public/uploads/' . $filename;
                         if (!move_uploaded_file($source, $destination)) {
                             $pass = false;
                             $upload_err = "File upload error.";
