@@ -11,7 +11,6 @@ $posts = "
         `firstname` tinytext COLLATE utf8mb4_unicode_ci NOT NULL,
         `lastname` longtext COLLATE utf8mb4_unicode_ci,
         `filename` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT '',
-        `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
         PRIMARY KEY (`id`)
     ) ENGINE=InnoDB AUTO_INCREMENT=124 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ";
@@ -22,7 +21,6 @@ $users = "
         `name` varchar(100) NOT NULL DEFAULT '',
         `email` varchar(100) NOT NULL DEFAULT '',
         `password` varchar(100) NOT NULL DEFAULT '',
-        `created_at` datetime DEFAULT CURRENT_TIMESTAMP,
         PRIMARY KEY (`id`)
     ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 ";
