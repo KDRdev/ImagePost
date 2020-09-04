@@ -68,6 +68,8 @@ DocumentRoot "/htdocs/www/application"
 
 NGiNX:
 location "/data/www/application";
+
+Where "application" is an app directory name.
 ```
 
 ************************************************
