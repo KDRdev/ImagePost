@@ -36,6 +36,8 @@ Run the command below to create DB tables.
 php app/setup/db.php
 ```
 
+************************************************
+
 Go to app/setup/pass_hash.php and enter your username, email and password. These details are required for viewing the added records list.
 
 **app/setup/pass_hash.php**
