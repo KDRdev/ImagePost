@@ -67,7 +67,7 @@ Apache:
 DocumentRoot "/htdocs/www/application"
 
 NGiNX:
-location "/data/www/application"";
+location "/data/www/application";
 ```
 
 ************************************************
