@@ -32,7 +32,7 @@ After cloning the repository, configure your URLROOT, SITENAME and DB connection
 
 ************************************************
 
-Run the command below to create DB tables.
+Run the command below from the project root folder to create DB tables.
 
 ``` C
 php app/setup/db.php
@@ -51,7 +51,7 @@ $password = 'PASSWORD';
 
 ************************************************
 
-Run the following command to create a db record for your user. **ATTENTION** clear $email, $password values from pass_hash.php file after creating user.
+Run the following command from the project root to create a db record for your user. **ATTENTION** clear $email, $password values from pass_hash.php file after creating user.
 
 ``` C
 php app/setup/pass_hash.php
