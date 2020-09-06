@@ -1,5 +1,5 @@
 # ImagePost
-An image posting system built using vanilla PHP 7.3, JavaScript, Bootstrap
+An image posting app built using vanilla PHP 7.3, JavaScript, Bootstrap
 
 ************************************************
 
